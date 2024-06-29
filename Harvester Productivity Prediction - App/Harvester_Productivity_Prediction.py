@@ -297,10 +297,7 @@ with st.container():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.write('Production: **:orange[' + str(round(list(result)[0], 1)) + ']**')
-
-    with col2:
-            st.write('Productivity: **:orange[' + str(round(list(result)[0] / working_hours, 1)) + ']**')
+        st.write('Productivity: **:orange[' + str(round(list(result)[0], 1)) + ']**')
 
 st.write('---')
 #----------------------------------------------------------------#
