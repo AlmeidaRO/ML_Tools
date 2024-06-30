@@ -3,7 +3,7 @@ Machine learning models developed in Python. You can run in your own computer or
 
 For online use:
 - <a href="http://200.131.22.2:13597">Data Analysis Laboratory</a> 
-- Login: Username = guest | Password = guest
+- Login: Username = <b>guest</b> | Password = <b>guest</b>
 - In the tools tab, enable the tool <b>Harvester Productivity Prediction</b>
 
 
