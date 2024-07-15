@@ -72,8 +72,8 @@ if weather_data == 'Yes':
             )
 
         with col3:
-            relativy_air_humidity_mean = st.radio(
-            '**Relativy air humidity** (%)', options = ['10 < x ≤ 30', '30 < x ≤ 60', '60 < x ≤ 80', '80 < x ≤ 99'], horizontal = False
+            relative_air_humidity_mean = st.radio(
+            '**relative air humidity** (%)', options = ['10 < x ≤ 30', '30 < x ≤ 60', '60 < x ≤ 80', '80 < x ≤ 99'], horizontal = False
             )
 
         with col4:
@@ -184,14 +184,14 @@ if weather_data == 'Yes':
     ######################
 
     ######################
-    if relativy_air_humidity_mean == '10 < x ≤ 30':
-        relativy_air_humidity_mean = 30.0
-    if relativy_air_humidity_mean == '30 < x ≤ 60':
-        relativy_air_humidity_mean = 55.0
-    if relativy_air_humidity_mean == '60 < x ≤ 80':
-        relativy_air_humidity_mean = 79.0
-    if relativy_air_humidity_mean == '80 < x ≤ 99':
-        relativy_air_humidity_mean = 85.0
+    if relative_air_humidity_mean == '10 < x ≤ 30':
+        relative_air_humidity_mean = 30.0
+    if relative_air_humidity_mean == '30 < x ≤ 60':
+        relative_air_humidity_mean = 55.0
+    if relative_air_humidity_mean == '60 < x ≤ 80':
+        relative_air_humidity_mean = 79.0
+    if relative_air_humidity_mean == '80 < x ≤ 99':
+        relative_air_humidity_mean = 85.0
     ######################
 
     ######################
@@ -216,7 +216,7 @@ if weather_data == 'Yes':
         'dew point temperature mean':[dew_point_temperature_mean],
 
         'gusts of wind mean':[gusts_of_wind_mean], 
-        'relativy air humidity mean':[relativy_air_humidity_mean],
+        'relative air humidity mean':[relative_air_humidity_mean],
         'stand density':[stand_density],
         'atmospheric pressure mean':[atmospheric_pressure_mean],
     })
