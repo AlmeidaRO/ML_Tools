@@ -3,6 +3,7 @@ The aim of this app is to predict the (timber) harvester maintenance, using data
 
 
 ## How to use
+- First, modify lines 30 and 31, replacing YOUR_PATH with the correct path on your computer, to access the files *.pkl.
 - Linux users: Download this folder. Open the terminal and go to the Harvester Maintenance Prediction - App folder.
   Then run the run.sh file
 - Windows users: Download this folder. Run the python launcher and go to the Harvester Maintenance Prediction - App folder.
