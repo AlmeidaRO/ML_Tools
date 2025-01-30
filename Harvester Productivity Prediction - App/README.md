@@ -3,6 +3,7 @@ The aim of this app is to predict the harvesting productivity of wood from plant
 
 
 ## How to use
+- First, modify lines 224 and 289, replacing YOUR_PATH with the correct path on your computer, to access the files *.pkl.
 - Linux users: Download this folder. Open the terminal and go to the Harvester Productivity Prediction - App folder.
   Then run the run.sh file
 - Windows users: Download this folder. Run the python launcher and go to the Harvester Productivity Prediction - App folder.
