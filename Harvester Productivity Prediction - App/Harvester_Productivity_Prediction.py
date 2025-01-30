@@ -221,7 +221,7 @@ if weather_data == 'Yes':
         'atmospheric pressure mean':[atmospheric_pressure_mean],
     })
 
-    model = pickle.load(open('/home/rodrigo/Dropbox/DABL/download/harvester_productivity_prediction_final_model_timber_harvest_data_combined_with_weather_data.pkl', 'rb'))
+    model = pickle.load(open('/YOUR_PATH/harvester_productivity_prediction_final_model_timber_harvest_data_combined_with_weather_data.pkl', 'rb'))
 
 
 
@@ -286,7 +286,7 @@ if weather_data == 'No':
         'stand density':[stand_density],
     })
 
-    model = pickle.load(open('/home/rodrigo/Dropbox/DABL/download/harvester_productivity_prediction_final_model_only_timber_harvest_data.pkl', 'rb'))
+    model = pickle.load(open('/YOUR_PATH/harvester_productivity_prediction_final_model_only_timber_harvest_data.pkl', 'rb'))
 
 #----------------------------------------------------------------#
 
