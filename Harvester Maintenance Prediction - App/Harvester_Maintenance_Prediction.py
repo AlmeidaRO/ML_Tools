@@ -27,8 +27,8 @@ st.markdown(hide_streamlit_style, unsafe_allow_html = True)
 #----------------------------------------------------------------#
 st.subheader(':blue[Feature adjustments]')
 
-model = pickle.load(open('/home/rodrigo/Random Forest Default.pkl', 'rb'))
-encoder_class = pickle.load(open('/home/rodrigo/encoder_class.pkl', 'rb'))
+model = pickle.load(open('/YOUR_PATH/Random Forest Default.pkl', 'rb'))
+encoder_class = pickle.load(open('/YOUR_PATH/encoder_class.pkl', 'rb'))
 status_ratio = []
 #----------------------------------------------------------------#
 
